@@ -20,6 +20,7 @@ expressServer.use(activitiesRouter);
 expressServer.use(reviewRouter);
 expressServer.use(userRouter);
 expressServer.use(authRoute);
+expressServer.use(userRouter);
 
 expressServer.listen(3000, () => {
   console.log("Serveren kører på http://localhost:3000");
