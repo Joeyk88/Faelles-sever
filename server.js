@@ -3,7 +3,7 @@ import cors from "cors";
 import staysRoutes from "./routes/stay.route.js";
 import activitiesRouter from "./routes/activity.route.js";
 import reviewRouter from "./routes/review.route.js";
-import userRouter from "./routes/user.route.js";
+import userRouter from "..Faelles-sever/models/user.routes.js";
 import authRoute from "./routes/auth.route.js";
 
 // Server
