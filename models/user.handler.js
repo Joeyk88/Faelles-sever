@@ -1,7 +1,7 @@
 import User from "../models/user.model.js";
 import Quiz from "../models/quiz.model.js";
 
-// Tilføj svar på et quiz-spørgsmål
+// Tilføj svar på et quiz-spørgsmå
 export const addAnswer = async (req, res) => {
   try {
     const { userId } = req.params;
